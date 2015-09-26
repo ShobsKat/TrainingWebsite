@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav {
+	background: brown;
+	width: auto;
+	text-align: center;
+}
+#nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	display: block;
+	zoom: 1;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#nav ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#nav ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#nav.align-right ul li {
+  float: right;
+}
+#nav.align-center ul {
+  text-align: center;
+}
+#nav ul li a {
+	color: #020202;
+	text-decoration: none;
+	display: block;
+	padding: 15px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+	-webkit-transition: color .25s;
+	-moz-transition: color .25s;
+	-ms-transition: color .25s;
+	-o-transition: color .25s;
+	transition: color .25s;
+
+}
+#nav ul li a:hover {
+	color: #3FEC15;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+body {
+	background-image: url(../images/contemporary_china.png);
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: oblique;
+	font-weight: bolder;
+}
+#content {
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+  }
+#footer {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	background: #C32E31;
+}
+#content {
+	margin-left: 15%;
+	margin-right: 15%;
+	background-image:url(../images/symphony.png);
+	font-style: oblique;
+	font-weight: bolder;
+  }
+form .sgform {
+	clear:both;
+}
+
+form .sgform .sgsubmit {
+	text-align:right;
+}
+
+	table.tableizer-table {
+	border: 1px solid #CCC; font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-size: 12px;
+} 
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+	text-align:center;
+}
+.tableizer-table th {
+	background-color: #D2C4CF; 
+	color: #FFF;
+	font-weight: bold;
+}
+#back{
+	background-image: url(../images/sand.jpg);
+	color:red ;
+	font-size: xx-large;
+}
+input{
+	clear:left;
+	text-align:right;
+	padding-right:10px;
+	
